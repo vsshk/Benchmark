@@ -94,7 +94,7 @@ jobs:
       if: github.event_name == 'pull_request'
       env:
         OWASP_BENCHMARK_CHECKSUM: ${{ env.OWASP_BENCHMARK_CHECKSUM }}
-        SHIFTLEFT_USER_ID_V2: 50f7acf1-b972-46f5-ac9a-b2465fd9f655
+        SHIFTLEFT_USER_ID_V2: b9ef0d34-bf22-4e2f-8bd8-d94370364515
         SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
         
       with:
